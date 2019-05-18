@@ -11,7 +11,7 @@ class CashRegister
   end
   
   def apply_discount
-    
     self.total*discount.to_a?(Float)
+    @total 
   end
 end
