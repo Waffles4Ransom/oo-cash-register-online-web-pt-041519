@@ -27,7 +27,7 @@ class CashRegister
   end
   
   def void_last_transaction
-    #the last transaction would be the last item that used add_items
+    #the last transaction would be the last item that used add_item ^^
     self.total -= self.last_transaction
   end 
   
