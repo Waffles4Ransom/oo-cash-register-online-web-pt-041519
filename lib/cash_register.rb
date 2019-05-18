@@ -16,8 +16,9 @@ class CashRegister
     if discount != 0 
       self.total*discount.to_f
     else 
-      "No discount available"
-    
-     
+      "There is no discount to apply."
+    end
   end
+  
+  
 end
