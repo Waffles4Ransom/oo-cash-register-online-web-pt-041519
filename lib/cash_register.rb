@@ -9,6 +9,7 @@ class CashRegister
 
   def add_item(title, price, quantity = 1)
     @total += price*quantity
+    # add multiples of item based on quantity number ( i.e put x in 3 times)
     quantity.times do 
       @items << title
     end
